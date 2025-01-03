@@ -7,8 +7,10 @@
     <title>Flexbox wrap 1 — wrapping our content to new rows</title>
     <style>
         body {
-            display: flex;
-            flex-direction: column;
+        
+	display: flex;
+	flex-direction: column;
+
             height: 100vh;
             width: 100vw;
             margin: 0;
@@ -20,12 +22,16 @@
         }
 
         main {
-            display: flex;
+       
+	display: flex;
+	flex-direction: row;
             height: 100%;
         }
 
         nav {
             background: #e6ee9c;
+            display: flex;
+            flex-direction: row;
         }
 
         article {
@@ -55,7 +61,12 @@
 
 <body>
     <header>Header</header>
-    <nav>Navigation</nav>
+    <nav>
+        
+        <div style="margin-right :10px">Navigation 1</div>
+
+        <div>Navigation 2</div>
+    </nav>
     <main>
         <article>Article</article>
         <aside>Aside</aside>

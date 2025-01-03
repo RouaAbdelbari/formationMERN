@@ -24,7 +24,7 @@ body {
 /* Écran large : Plus de 1024px */
 @media (min-width: 1025px) {
     .box {
-        background-color: lightgreen;
+        background-color: green;
         color: white;
         width: 90%;
     }
@@ -33,7 +33,7 @@ body {
 /* Écran moyen : Entre 768px et 1024px */
 @media (min-width: 768px) and (max-width: 1024px) {
     .box {
-        background-color: lightcoral;
+        background-color: blue;
         color: white;
         width: 70%;
     }
@@ -42,10 +42,9 @@ body {
 /* Écran étroit : Moins de 768px */
 @media (max-width: 767px) {
     .box {
-        background-color: lightgoldenrodyellow;
+        background-color: yellow;
         color: #333;
         width: 80%;
         max-width: 350px;
-        display: none;
     }
 }
